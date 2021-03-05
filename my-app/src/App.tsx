@@ -4,6 +4,7 @@ import './App.css';
 import Head from './components/Head';
 import { Button } from './components/Button';
 import { Input } from './components/Input';
+import ReducersButtons from './components/ReducersButtons';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       }} >
         I am the button
       </Button>
+      <ReducersButtons />
       <Input />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
